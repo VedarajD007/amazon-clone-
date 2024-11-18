@@ -1,0 +1,157 @@
+ 
+ 
+body{
+  background-color: #F3ECD6;
+
+}
+ .box1{
+   height:58px;
+   width: 100%;
+   background-color: #0F1111;
+   display:flex; 
+   justify-content: space-evenly;
+ }
+ .logo{
+   width:118px;
+   height:58px;
+   background-image: url("download.png");
+
+  background-size: cover;
+ }
+ .del{
+   width:88px;
+   height:58px;
+   font-family: Arial;
+   color: azure;
+   /* display: flex;  */
+
+ }
+ .sear{
+   width: 480px;
+   height: 56px;
+   display: flex;
+   /* justify-content: space-evenly; */
+   background-color: antiquewhite;
+   background-color: #0F1111;
+ }
+ .al{
+   width:50px;
+   height: 56px;
+   border-top-left-radius:3px ;
+   border-bottom-left-radius:3px ;
+   background-color: #e6e6e6;
+ }
+ .sear1{
+   width:380px;
+   height: 56px;
+ }
+ .sear2{
+  width:50px ;
+  height: 56px;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+   
+  justify-content: center;
+  border-top-right-radius:3px ;
+  border-bottom-right-radius:3px ;
+
+ }
+ .sear2.active{
+ border: 3px solid white;
+ }
+ 
+ .ENG
+ {
+  width: 60px;
+  height:56px;
+  background-color: #0F1111;
+  color: aliceblue;
+ }
+ .HELL{
+  width: 135px;
+  height: 52px;
+  background-color: #0F1111;
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Amazon Ember;
+  border-radius: none;
+  /* display: flex;
+  justify-content: center; */
+ }
+ .ret{
+  height: 50px;
+  width: 120px;
+ }
+ .cart{
+  width: 60px;
+  height: 56px;
+  color: #e6e6e6;
+  background-color: #0F1111;
+  border-color: transparent;
+  align-items: center;
+ }
+ .cart:hover{
+  border: 2px solid white;
+ }
+ .divv2 {
+  position: relative;
+  height: auto;
+  width: auto;
+  padding-top: 350px;
+  background-size: cover;
+  background-image: url("ftf.jpg");
+  background-position: center; 
+  animation: ani1  25s ease-in 3s;
+}
+
+@keyframes ani1 {
+  0% {
+    background-image: url("ftf.jpg");
+  }
+  25% {
+    background-image: url("bbb.jpg");
+  }
+  50% {
+    background-image: url("mob.jpg");
+  }
+  75% {
+    background-image: url("ftf.jpg");
+  }
+  100% {
+    background-image: url("bbb.jpg");
+  }
+}
+
+ 
+ .divv22{
+  background-color:#212424;
+  color:#e6e6e6;
+  font-family: Helvetica, sans-serif;
+  width: 100vw;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+ }
+ .all:hover{
+border:1px solid whitesmoke;
+ }
+ .sss{
+  width: 1100px;;
+  height:280px;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+ }
+ .ss1{  
+  
+ 
+  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  
+ } 
+ .mgrid:hover{
+  border:2px solid rgb(81, 77, 77);
+}
